@@ -3,6 +3,7 @@
 using namespace std; 
 
 int check_Pallindrome(string s1,int i,int j){
+    //Base case
     if(i > j){
         return 1; 
     }
